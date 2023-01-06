@@ -1,7 +1,7 @@
 html{
     font-family: Bradley Hand, cursive;
     font-size: 14px;
-    background: rgb(4, 111, 160);
+    background: rgb(4, 160, 40);
 }
 .columns {
     display: flex;
@@ -161,8 +161,7 @@ a{
 #toggler37:checked~.picture37,
 #toggler38:checked~.picture38,
 #toggler39:checked~.picture39,
-#toggler40:checked~.picture40,
-#toggler41:checked~.picture41  {    
+#toggler40:checked~.picture40 {    
     display: block;
 }
 label{
@@ -243,7 +242,7 @@ transform: scale(1.1);
 
 .texttomain {
     font-size: 4em;
-    color: #3d0e42;
+    color: #0e4215;
     text-transform: uppercase;
     margin-top: 300px;
     text-align: center;
@@ -258,13 +257,13 @@ transform: scale(1.1);
 
 @keyframes animate {
     0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%{
-        color: #3c0e42;
+        color: #022e00;
         text-shadow: none;
     }
 
     18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%{
-        color: rgb(187, 20, 248);
-        text-shadow: 0 0 10px #e003f4, 0 0 20px #e003f4, 0 0 40px #e003f4, 0 0 80px #e003f4, 0 0 160px #e003f4, 0 0 400px #e003f4;
+        color: rgb(0, 0, 0);
+        text-shadow: 0 0 10px #03f41b, 0 0 20px #03f44b, 0 0 40px #03f43b, 0 0 80px #47f403, 0 0 160px #03f433, 0 0 400px #03f423;
     }
 }
 .texttomain span:nth-child(even){
